@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10803,6 +10804,43 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+ol,
+ul,
+dl {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+body,
+html {
+  font-size: 1rem;
+  font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=all.css.map */
